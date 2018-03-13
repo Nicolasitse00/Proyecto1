@@ -57,6 +57,12 @@
     <Compile Include="categotriasForm.Designer.cs">
       <DependentUpon>categotriasForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="entradasForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="entradasForm.Designer.cs">
+      <DependentUpon>entradasForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +78,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="categotriasForm.resx">
       <DependentUpon>categotriasForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="entradasForm.resx">
+      <DependentUpon>entradasForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
